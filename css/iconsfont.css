@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?87cxbq');
+  src:  url('../fonts/icons.eot?87cxbq#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?87cxbq') format('truetype'),
+    url('../fonts/icons.woff?87cxbq') format('woff'),
+    url('../fonts/icons.svg?87cxbq#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="__icon-"], [class*=" __icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.__icon-rev:before {
+  content: "\e90a";
+}
+.__icon-footer-linkedin:before {
+  content: "\e900";
+}
+.__icon-footer-twitter:before {
+  content: "\e901";
+}
+.__icon-footer-instagram:before {
+  content: "\e902";
+}
+.__icon-footer-facebook:before {
+  content: "\e903";
+}
+.__icon-arrow-corousel:before {
+  content: "\e904";
+}
+.__icon-portfolio-arrow:before {
+  content: "\e905";
+}
+.__icon-visual:before {
+  content: "\e906";
+}
+.__icon-web:before {
+  content: "\e907";
+}
+.__icon-design-app:before {
+  content: "\e908";
+}
+.__icon-logo:before {
+  content: "\e909";
+}
